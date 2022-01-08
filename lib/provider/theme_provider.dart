@@ -33,4 +33,8 @@ class MyThemes {
     colorScheme: const ColorScheme.light(),
     iconTheme: const IconThemeData(color: Colors.red, opacity: 0.8),
   );
+
+  ThemeData customTheme = ThemeData(
+    primarySwatch: Colors.brown,
+  );
 }
