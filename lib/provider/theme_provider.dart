@@ -35,6 +35,20 @@ class MyThemes {
   );
 
   ThemeData customTheme = ThemeData(
-    primarySwatch: Colors.brown,
+    colorScheme: ColorScheme(
+      primary: Colors.white,
+      primaryVariant: Colors.blue,
+      secondary: Colors.grey.shade800,
+      secondaryVariant: Colors.blueAccent,
+      surface: Colors.white54,
+      background: Colors.white54,
+      error: Colors.red,
+      onPrimary: Colors.black87, // primary inner text
+      onSecondary: Colors.black87,
+      onSurface: Colors.redAccent,
+      onBackground: Colors.redAccent,
+      onError: Colors.redAccent,
+      brightness: Brightness.light,
+    ),
   );
 }

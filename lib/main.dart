@@ -1,4 +1,4 @@
-import 'package:carrot_market_cc/pages/home.dart';
+import 'package:carrot_market_cc/pages/home/home.dart';
 import 'package:carrot_market_cc/provider/theme_provider.dart';
 import 'package:flutter/material.dart';
 
@@ -18,7 +18,7 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: MyThemes().customTheme,
-      home: Home(),
+      home: const Home(),
     );
   }
 }
