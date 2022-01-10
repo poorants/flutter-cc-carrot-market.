@@ -1,4 +1,5 @@
 import 'package:carrot_market_cc/pages/home/widgets/appbar.dart';
+import 'package:carrot_market_cc/pages/home/widgets/body.dart';
 import 'package:flutter/material.dart';
 
 class Home extends StatefulWidget {
@@ -13,8 +14,8 @@ class _HomeState extends State<Home> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: appbarWidget(),
-      body: Container(),
-      bottomNavigationBar: Container(),
+      body: bodyWidget(),
+      // bottomNavigationBar: Container(),
     );
   }
 }
