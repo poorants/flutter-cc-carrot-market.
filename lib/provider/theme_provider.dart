@@ -37,7 +37,7 @@ class MyThemes {
   ThemeData customTheme = ThemeData(
     colorScheme: const ColorScheme(
       primary: Colors.white,
-      primaryVariant: Colors.white,
+      primaryVariant: Colors.orange,
       secondary: Colors.orange,
       secondaryVariant: Colors.blueAccent,
       surface: Colors.black26,

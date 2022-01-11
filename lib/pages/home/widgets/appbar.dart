@@ -5,9 +5,7 @@ AppBar appbarWidget() {
   return AppBar(
     elevation: 0,
     title: GestureDetector(
-      onTap: () {
-        print('click');
-      },
+      onTap: () async {},
       child: Row(
         children: const [
           Text('송파동'),
