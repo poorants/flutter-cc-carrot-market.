@@ -1,5 +1,5 @@
 import 'package:carrot_market_cc/firebase_options.dart';
-import 'package:carrot_market_cc/pages/home/home.dart';
+import 'package:carrot_market_cc/pages/login/login.dart';
 import 'package:carrot_market_cc/provider/theme_provider.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
@@ -25,7 +25,7 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: MyThemes().customTheme,
-      home: const Home(),
+      home: const LoginPage(),
     );
   }
 }
