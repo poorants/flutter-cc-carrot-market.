@@ -1,4 +1,4 @@
-import 'package:carrot_market_cc/pages/login/widgets/background.dart';
+import './background.dart';
 import 'package:flutter/material.dart';
 
 class Body extends StatelessWidget {
